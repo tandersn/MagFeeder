@@ -63,6 +63,8 @@ def buy_items(item_pos):
 
 if __name__ == '__main__':
     item_pos = int(sys.argv[1:][0])
+    print("Waiting 10 seconds before beginning script.")
+    print("Please click on the PSOBB window now!")
     time.sleep(10)
     while True:
         print("Beginning mag feed round!")
