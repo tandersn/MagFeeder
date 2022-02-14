@@ -7,6 +7,7 @@ This script will automatically feed your mag with an item of your choice. It als
 ### Prerequisites
 * It's smart to start with a mag that's already gone through all of its evolutions, so its food preferences don't change
 * Python is installed on your system.
+* Download `main.py` from this repository
 
 ### Game Setup
 1. Run the game in windowed mode
@@ -17,7 +18,7 @@ This script will automatically feed your mag with an item of your choice. It als
 6. Close the shop, do not move your character.
 
 
-In the command line, run:
+In the command line, navigate to where you downloaded `main.py`, then run:
 
 ```python main.py 10```
 
