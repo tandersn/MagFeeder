@@ -7,8 +7,8 @@ This script will automatically feed your mag with an item of your choice. It als
 ### Prerequisites
 * It's smart to start with a mag that's already gone through all of its evolutions, so its food preferences don't change
 * Python is installed on your system.
-* Download `main.py` from this repository
-
+* Download `main.py` and `requirements.txt` from this repository
+  * Navigate to where these are downloaded and run `pip install -r requirements.txt` 
 ### Game Setup
 1. Run the game in windowed mode
 2. Withdraw all of your meseta
