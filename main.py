@@ -1,7 +1,7 @@
 from pynput.keyboard import Key, Controller
 keyboard = Controller()
 import time
-
+import sys
 
 def press_then_sleep(key, ms=500):
     print(f"Pressing {key}")
@@ -62,11 +62,12 @@ def buy_items(item_pos):
 
 
 if __name__ == '__main__':
-    time.sleep(5)
+    item_pos = int(sys.argv[1:][0])
+    time.sleep(10)
     while True:
         print("Beginning mag feed round!")
         feed_mag()
-        buy_items(10)
+        buy_items(item_pos)
 
         print("Waiting for next round")
         waited = 0
