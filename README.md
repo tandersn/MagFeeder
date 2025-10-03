@@ -16,6 +16,8 @@ This script will automatically feed your mag with an item of your choice. It als
 4. Stand your character in front of the shop
 5. Find out what position the item is in the shop. For example, if I want to feed my mag Trifluids, and I have to move down `10` items in the shop to buy it, then `10` is the number I want.
 6. Close the shop, do not move your character.
+7. Feed your mag once and make sure the menu is still on MAG when you exit
+8. Wait 3.5 minutes...
 
 
 In the command line, navigate to where you downloaded `main.py`, then run:
