@@ -25,8 +25,8 @@ def feed_mag():
     # Use a breakpoint in the code line below to debug your script.
     press_then_sleep(Key.home)
     press_then_sleep(Key.enter, ms=200)
-    press_then_sleep(Key.down, ms=100)
-    press_then_sleep(Key.down, ms=100)
+    #press_then_sleep(Key.down, ms=100)
+    #press_then_sleep(Key.down, ms=100)
     press_then_sleep(Key.enter, ms=200)
     press_then_sleep(Key.enter, ms=200)
     press_then_sleep(Key.enter, ms=200)
